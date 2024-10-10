@@ -77,21 +77,10 @@ function getRandomSymbol() {
 	const symbols = '!@#$%^&*(){}[]=<>/,.'
 	return symbols[Math.floor(Math.random() * symbols.length)];
 }
-
-
-
-
-
-
-
 // SOCIAL PANEL JS
 const floating_btn = document.querySelector('.get-in-touch');
 
 
 floating_btn.addEventListener('click', () => {
 	social_panel_container.classList.toggle('visible')
-});
-
-close_btn.addEventListener('click', () => {
-	social_panel_container.classList.remove('visible')
 });
